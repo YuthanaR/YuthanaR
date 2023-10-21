@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="[https://github.com/YuthanaR/YuthanaR/blob/main/1.jpg">
- <source media="(prefers-color-scheme: light)" srcset="https://github.com/YuthanaR/YuthanaR/blob/main/1.jpg">
+ <source media="(prefers-color-scheme: dark)" srcset="./assets/1.jpg">
+ <source media="(prefers-color-scheme: light)" srcset="./assets/1.jpg">
  <img alt="YOUR-ALT-TEXT" src="1.jpg">
 </picture>

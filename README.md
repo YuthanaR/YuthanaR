@@ -30,20 +30,20 @@ All of these projects I try to build them base on real world applications and th
     - AspNet Core 6.0  for running BackOffice.Ids, BackOffice.Api
     - FTP and SAMBA for deploying projects
 ## Projects
-    ### BackOffice.Ids
-    This project is an authentication and authorization server. The project was created based on AspNetCore with Individual account template,
-    addon with Duende IdentityServer api.
-    ### BackOffice.Api 
-    This is AspNetCore Web Api project, supports OAuth2.0 and OpenIdConnect. The project implement Claim and Role base authorization. 
-    ### BackOffice.Commerce
-    This is .NET core library project provides business logic services, includes data access layers, models.
-    ### BackOffice.Web
-    This project is Angular project, calling services from BackOffice.Api by getting authentication and authorization from BackOffice.Ids.
-    ### BackOffice.Client
-    This project is AspNetCore Console application. This project is for:
-        - running data migration 
-        - seeding demo data
-        - testing api functions.
+### BackOffice.Ids
+This project is an authentication and authorization server. The project was created based on AspNetCore with Individual account template,
+addon with Duende IdentityServer api.
+### BackOffice.Api 
+This is AspNetCore Web Api project, supports OAuth2.0 and OpenIdConnect. The project implement Claim and Role base authorization. 
+### BackOffice.Commerce
+This is .NET core library project provides business logic services, includes data access layers, models.
+### BackOffice.Web
+This project is Angular project, calling services from BackOffice.Api by getting authentication and authorization from BackOffice.Ids.
+### BackOffice.Client
+This project is AspNetCore Console application. This project is for:
+    - running data migration 
+    - seeding demo data
+    - testing api functions.
 ## Sources
     - https://identityserver4.readthedocs.io/en/latest/
     - https://docs.duendesoftware.com/identityserver/v6

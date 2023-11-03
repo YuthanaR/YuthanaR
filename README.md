@@ -10,7 +10,7 @@ I am now learning how to build authrozie server with Identity server using Micrs
     - Peresist Clients, Identity Resources, Identity Scopes,Api Scopes, and Api resources with Configuration Data. Lerning how to implement the ConfigurationDbContext and PersistedGrantDbContext.
     - custom some UI pages to handel Clients, Api Scope, Api Resources, Identity Scope, and Identity Resources.
 2. I also create Web Api project (named BackOffice.Api) to act as Api resources. The purpose of this project is to learn Authentication and Authorization in AspNetCore WebApi, especially OpenIdConnect, OAuth2.0. 
-    It is interesting how to cconfig SwaggerUI to authenticate using OAuth2.0, using ClientCredentials and AuthorizationCode flows in the same system.
+    It is interesting how to config SwaggerUI to authenticate using OAuth2.0, using ClientCredentials and AuthorizationCode flows in the same system.
 3. Finally I build another three projects, which are:
     - BackOffice.Clients This project is AspNetCore console project connect to the WebApi with ClientCredentails flow.
     - BackOffice.Web This project is AspNetCore Web Mvc/RazorPage for accessing BackOffice.Api resources
@@ -18,7 +18,7 @@ I am now learning how to build authrozie server with Identity server using Micrs
 
 All of these projects I try to build them base on real world applications and then people, who are interested coding, can learn and enjoy the coding.    
 
-##Tools 
+## Tools 
 1. Windows 11 Pro
     - Visual Studio 2022, for coding BackOffice.Ids, BackOffice.Api, BackOffice.Clients
     - Visual Studio Code, for coding Foodshop (Angular)
@@ -30,11 +30,17 @@ All of these projects I try to build them base on real world applications and th
     - AspNet Core 6.0  for running BackOffice.Ids, BackOffice.Api
     - FTP and SAMBA for deploying projects
 ## Projects
-    ### BackOffice.Ids is an authentication and authorization server. The project was created based on AspNetCore with Individual account template, addon with Duende IdentityServer api.
-    ### BackOffice.Api is AspNetCore Web Api project, supports OAuth2.0 and OpenIdConnect. The project implement Claim and Role base authorization. 
-    ### BackOffice.Commerce  is .Net core library project provides business logic services, includes data access layers, models.
-    ### BackOffice.Web is Angular project, calling services from BackOffice.Api by getting authentication and authorization from BackOffice.Ids.
-    ### BackOffice.Client is AspNetCore Console application. This project is for:
+    ### BackOffice.Ids
+    This project is an authentication and authorization server. The project was created based on AspNetCore with Individual account template,
+    addon with Duende IdentityServer api.
+    ### BackOffice.Api 
+    This is AspNetCore Web Api project, supports OAuth2.0 and OpenIdConnect. The project implement Claim and Role base authorization. 
+    ### BackOffice.Commerce
+    This is .NET core library project provides business logic services, includes data access layers, models.
+    ### BackOffice.Web
+    This project is Angular project, calling services from BackOffice.Api by getting authentication and authorization from BackOffice.Ids.
+    ### BackOffice.Client
+    This project is AspNetCore Console application. This project is for:
         - running data migration 
         - seeding demo data
         - testing api functions.

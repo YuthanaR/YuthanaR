@@ -1,4 +1,4 @@
-### Hi there 👋 I am learning how to write README on GitHub.com
+# Hi there 👋 Let's learn building web applications
 🤔 I am interested in developing web applications with AspNetCore. My favorites computer programming and technologies are mostly from Microsoft likes c#, Asp.Net core, Asp.Net framework, EntityFramework etc. I also like JavaScript and coding web applications with Angular, React. I normaly use Visual Studio and Visual studio code for coding the applications.
 
 I am now learning how to build authrozie server with Identity server using Micrsoft technology Duende IdentityServer. Here are project concept:
@@ -18,17 +18,27 @@ I am now learning how to build authrozie server with Identity server using Micrs
 
 All of these projects I try to build them base on real world applications and then people, who are interested coding, can learn and enjoy the coding.    
 
-#Reference 
-1. Ubuntu20.04
-    - hosting Microsoft SQL 2019 Developer Edition.
+##Tools 
+1. Windows 11 Pro
+    - Visual Studio 2022, for coding BackOffice.Ids, BackOffice.Api, BackOffice.Clients
+    - Visual Studio Code, for coding Foodshop (Angular)
+    - Virual Host
+2. Ubuntu20.04  
+    A virtual machine, hosted on Windows 11 
+    - Microsoft SQL 2019 Developer Edition.
     - Apache2 web application as front-end of (BackOffice.Ids, BackOffice.Api)
     - AspNet Core 6.0  for running BackOffice.Ids, BackOffice.Api
     - FTP and SAMBA for deploying projects
-2. Windows 11 Pro
-    - Visual Studio 2022, for coding BackOffice.Ids, BackOffice.Api, BackOffice.Clients
-    - Visual Studio Code, for coding Foodshop (Angular)
-    - Virual Host, running Ubuntu 20.04
-3. Sources:
+## Projects
+    ### BackOffice.Ids is an authentication and authorization server. The project was created based on AspNetCore with Individual account template, addon with Duende IdentityServer api.
+    ### BackOffice.Api is AspNetCore Web Api project, supports OAuth2.0 and OpenIdConnect. The project implement Claim and Role base authorization. 
+    ### BackOffice.Commerce  is .Net core library project provides business logic services, includes data access layers, models.
+    ### BackOffice.Web is Angular project, calling services from BackOffice.Api by getting authentication and authorization from BackOffice.Ids.
+    ### BackOffice.Client is AspNetCore Console application. This project is for:
+        - running data migration 
+        - seeding demo data
+        - testing api functions.
+## Sources
     - https://identityserver4.readthedocs.io/en/latest/
     - https://docs.duendesoftware.com/identityserver/v6
     - https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0

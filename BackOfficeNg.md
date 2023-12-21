@@ -1,6 +1,6 @@
 # Angular Projects
 
-## BackOffice NG
+## BackOffice.Web
 
 1. create Angular version 17 workspace named: backofficeweb with this command
    ng new BackOfficeWeb --skip-install --skip-tests --routing --ssr false --style scss
@@ -16,4 +16,3 @@
    link href="<https://fonts.googleapis.com/icon?family=Material+Icons>" rel="stylesheet"
 5. Set Material theme by adding prebuilt theme to styles [] in angular.json like this
    ![image](https://github.com/YuthanaR/YuthanaR/assets/15309094/65f76dad-5e1b-4e5f-b414-92e4fa9a94e1)
-

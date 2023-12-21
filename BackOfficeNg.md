@@ -15,11 +15,5 @@
 4. Add Material Icons by adding link to index.html
    link href="<https://fonts.googleapis.com/icon?family=Material+Icons>" rel="stylesheet"
 5. Set Material theme by adding prebuilt theme to styles [] in angular.json like this
-   ...
-   "styles": [
-   {
-   "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
-   },
-   "src/styles.scss"
-   ]
-   ...
+   ![image](https://github.com/YuthanaR/YuthanaR/assets/15309094/65f76dad-5e1b-4e5f-b414-92e4fa9a94e1)
+

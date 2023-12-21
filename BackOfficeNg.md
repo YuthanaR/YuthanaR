@@ -17,4 +17,4 @@
 5. Set Material theme by adding prebuilt theme to styles [] in angular.json like this
    ![image](https://github.com/YuthanaR/YuthanaR/assets/15309094/65f76dad-5e1b-4e5f-b414-92e4fa9a94e1)
 6. Add PageHeaderService. This service is for changing the browser title, when route data (pageTitle) is changed.
-   ![Browser title changed](image.png)
+   ![Browser title changed](assets/pageHeaderService1.png)
